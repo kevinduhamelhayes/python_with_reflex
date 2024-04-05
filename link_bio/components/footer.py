@@ -1,10 +1,10 @@
 import reflex as rx 
-def navbar() -> rx.Component:
+def footer() -> rx.Component:
   return rx.hstack(
         rx.text(
-            "kevin",
+            "footer",
                 height= 40,
         ),
         position= "center",
-        bg="red",
+        bg="green",
     )
